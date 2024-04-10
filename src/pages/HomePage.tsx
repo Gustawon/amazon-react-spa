@@ -5,7 +5,7 @@ function HomePage() {
     <>
       <h1>Amazon React App</h1>
       <div>
-        <img src={amzLogo} className="logo" alt="Amazon logo" />
+        <img src={amzLogo} className="logoOriginal" alt="Amazon logo" />
       </div>
     </>
   );

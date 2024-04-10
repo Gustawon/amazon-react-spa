@@ -1,0 +1,27 @@
+.locationSlot {
+  /* background-color: aquamarine; */
+  display: flex;
+  margin-left: 0.4em;
+}
+
+.locationPin {
+  display: flex;
+  padding-bottom: 0.2em;
+  align-items: end;
+}
+
+.locationAddress {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.deliverTo {
+  color: rgb(204, 204, 204);
+  font-size: 12px;
+}
+
+.address {
+  font-weight: 700;
+  font-size: 14px;
+}
