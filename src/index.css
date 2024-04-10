@@ -1,5 +1,21 @@
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("../src/fonts/Amazon-Ember-Medium.ttf") format("truetype"),
+    url("../src/fonts/Amazon-Ember-MediumItalic.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_Bd.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_BdIt.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_He.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_HeIt.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_Lt.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_LtIt.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_Rg.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_RgIt.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_Th.ttf") format("truetype"),
+    url("../src/fonts/AmazonEmber_ThIt.ttf") format("truetype");
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "AmazonEmber", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
