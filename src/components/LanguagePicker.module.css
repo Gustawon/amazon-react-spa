@@ -1,0 +1,35 @@
+#picker-container {
+  height: 40px;
+  display: flex;
+  justify-items: center;
+
+  align-items: center;
+  line-height: 1;
+
+  padding-left: 6px;
+  padding-right: 6px;
+
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+#picker-container:hover {
+  border-color: rgb(255, 255, 255);
+}
+
+#flag {
+  height: 16px;
+}
+
+#language {
+  font-size: 16px;
+  padding-left: 3px;
+}
+
+#arrow {
+  align-self: flex-end;
+  padding-bottom: 14px;
+  padding-left: 3px;
+  height: 6px;
+}

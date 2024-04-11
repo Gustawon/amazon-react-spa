@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  padding-right: 6px;
+  padding-left: 6px;
+
+  align-items: end;
+
+  border: solid 1px transparent;
+  border-radius: 4px;
+}
+
+.container:hover {
+  border-color: rgb(255, 255, 255);
+}
+
+.amount {
+  position: absolute;
+  top: 0px;
+  left: 27px;
+  font-size: 16px;
+  color: #e68309;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: -2px;
+}
