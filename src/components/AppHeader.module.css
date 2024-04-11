@@ -25,6 +25,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-left: 8px;
 }
 
 .navLeft {
