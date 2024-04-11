@@ -1,13 +1,23 @@
 .locationSlot {
-  /* background-color: aquamarine; */
   display: flex;
+  height: 40px;
   margin-left: 0.4em;
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: transparent;
+  padding-right: 6px;
+  line-height: 1.1;
+  align-items: center;
+}
+
+.locationSlot:hover {
+  border-color: rgb(255, 255, 255);
 }
 
 .locationPin {
   display: flex;
-  padding-bottom: 0.2em;
-  align-items: end;
+  padding-bottom: 0.4em;
+  align-self: end;
 }
 
 .locationAddress {
@@ -23,5 +33,5 @@
 
 .address {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
 }

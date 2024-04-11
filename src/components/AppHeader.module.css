@@ -29,7 +29,7 @@ header {
 
 .navLeft {
   position: static;
-  width: 260px;
+  min-width: 260px;
 
   display: flex;
   flex-direction: row;
@@ -40,6 +40,14 @@ header {
 .logo {
   height: 2em;
   padding: 0.5em;
+  box-sizing: content-box;
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.logo:hover {
+  border-color: rgb(255, 255, 255);
 }
 
 .navFill {
