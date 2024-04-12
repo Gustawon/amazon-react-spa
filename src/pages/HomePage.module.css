@@ -3,10 +3,14 @@
   height: 100%;
   width: 100%;
   min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .temporary-content {
   box-sizing: border-box;
+  background-color: linen;
 }
 
 .temporary-content h1 {

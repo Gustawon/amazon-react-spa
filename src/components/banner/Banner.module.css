@@ -1,0 +1,43 @@
+#banner-container {
+  position: relative;
+  width: 100%;
+  max-width: 1740px;
+  min-width: 1000px;
+  background-color: deepskyblue;
+}
+
+.button {
+  background-color: transparent;
+
+  z-index: 5;
+  width: 80px;
+  height: 250px;
+
+  justify-content: center;
+  align-content: center;
+  border: solid 2px transparent;
+  border-radius: 4px;
+}
+
+.button:hover {
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+}
+
+.rigth {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#banner-background {
+  width: 100%;
+  height: 600px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
