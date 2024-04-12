@@ -1,5 +1,5 @@
 import enFlag from "../assets/flags/us.svg";
-import arrowDropDown from "../assets/triangle-bottom-icon.svg";
+import arrowDropDown from "../assets/icons/triangle-bottom-icon.svg";
 
 import styles from "./LanguagePicker.module.css";
 

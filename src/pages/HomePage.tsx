@@ -1,4 +1,4 @@
-import amzLogo from "../assets/amazon-logo.svg";
+import amzLogo from "../assets/logos/amazon-logo.svg";
 import styles from "./HomePage.module.css";
 
 function HomePage() {

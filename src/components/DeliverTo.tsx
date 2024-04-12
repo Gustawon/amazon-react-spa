@@ -1,4 +1,4 @@
-import locationPin from "../assets/location.svg";
+import locationPin from "../assets/icons/location.svg";
 import styles from "./DeliverTo.module.css";
 
 function DeliverTo() {

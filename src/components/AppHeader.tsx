@@ -1,7 +1,7 @@
 import "./AppHeader.module.css";
 import styles from "./AppHeader.module.css";
 
-import amzLogo from "../assets/logo-white.svg";
+import amzLogo from "../assets/logos/logo-white.svg";
 import DeliverTo from "./DeliverTo";
 import SearchBar from "./SearchBar";
 import LanguagePicker from "./LanguagePicker";

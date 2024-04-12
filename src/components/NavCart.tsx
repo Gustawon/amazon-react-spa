@@ -1,4 +1,4 @@
-import cartIcon from "../assets/cart.png";
+import cartIcon from "../assets/icons/cart.png";
 
 import styles from "./NavCart.module.css";
 
