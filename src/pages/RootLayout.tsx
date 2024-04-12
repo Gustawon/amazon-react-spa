@@ -1,11 +1,13 @@
 import { Outlet } from "react-router-dom";
 import AppHeader from "../components/AppHeader";
 
+import styles from "./RootLayout.module.css";
+
 function RootLayout() {
   return (
     <>
       <AppHeader />
-      <main>
+      <main id={styles["main-container"]}>
         <Outlet />
       </main>
     </>

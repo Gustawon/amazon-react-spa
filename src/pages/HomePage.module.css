@@ -1,0 +1,14 @@
+#page-container {
+  background: #e3e6e6;
+  height: 100%;
+  width: 100%;
+}
+
+.temporary-content {
+  box-sizing: border-box;
+}
+
+.temporary-content h1 {
+  margin-top: 0px;
+  padding-top: 40px;
+}
