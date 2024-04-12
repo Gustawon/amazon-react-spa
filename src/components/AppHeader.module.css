@@ -1,5 +1,7 @@
 header {
-  width: 100vw;
+  width: 100%;
+  min-width: 1000px;
+
   color: rgb(255, 255, 255);
   background-color: rgb(19, 25, 33);
   display: flex;
@@ -8,6 +10,7 @@ header {
   justify-content: center;
   font-size: 14px;
   height: 60px;
+  overflow: visible;
 }
 
 #navbar {
