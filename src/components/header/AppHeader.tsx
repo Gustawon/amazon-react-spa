@@ -1,12 +1,12 @@
 import "./AppHeader.module.css";
 import styles from "./AppHeader.module.css";
 
-import amzLogo from "../assets/logos/logo-white.svg";
-import DeliverTo from "./DeliverTo";
-import SearchBar from "./SearchBar";
-import LanguagePicker from "./LanguagePicker";
-import NavItem from "./NavItem";
-import NavCart from "./NavCart";
+import amzLogo from "../../assets/logos/logo-white.svg";
+import DeliverTo from "../header/DeliverTo";
+import SearchBar from "../header/SearchBar";
+import LanguagePicker from "../header/LanguagePicker";
+import NavItem from "../header/NavItem";
+import NavCart from "../header/NavCart";
 
 function AppHeader() {
   return (

@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import AppHeader from "../components/AppHeader";
+import AppHeader from "../components/header/AppHeader";
 
 import styles from "./RootLayout.module.css";
 

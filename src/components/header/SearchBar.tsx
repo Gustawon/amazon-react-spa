@@ -1,8 +1,8 @@
 import "./SearchBar.module.css";
 import styles from "./SearchBar.module.css";
 
-import searchIcon from "../assets/icons/search.svg";
-import arrowDropDown from "../assets/icons/arrow_drop_down.svg";
+import searchIcon from "../../assets/icons/search.svg";
+import arrowDropDown from "../../assets/icons/arrow_drop_down.svg";
 
 function SearchBar() {
   return (
