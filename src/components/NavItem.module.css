@@ -17,6 +17,7 @@
 
 .container:hover {
   border-color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .top {
