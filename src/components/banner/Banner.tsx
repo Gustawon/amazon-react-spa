@@ -48,7 +48,8 @@ function Banner() {
       <div
         id={styles["banner-background"]}
         style={{
-          backgroundImage: ` linear-gradient(to bottom, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1)), url(${backgrounds[choice]})`,
+          backgroundImage: `url(${backgrounds[choice]})`,
+          maskImage: `linear-gradient(to top, transparent 10%, black 45%)`,
         }}
       ></div>
       <div
