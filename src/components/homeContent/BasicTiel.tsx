@@ -9,7 +9,9 @@ function BasicTiel({ title, image, linkName, link }: IHomeTiel) {
       <Link to={link} className={styles.imageContainer}>
         <img className={styles.image} src={image} alt="Product image" />
       </Link>
-      <div className={styles.link}>{linkName}</div>
+      <Link to={link} className={styles.link}>
+        {linkName}
+      </Link>
     </div>
   );
 }
