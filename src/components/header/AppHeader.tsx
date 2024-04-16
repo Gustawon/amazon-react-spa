@@ -7,6 +7,7 @@ import SearchBar from "../header/SearchBar";
 import LanguagePicker from "../header/LanguagePicker";
 import NavItem from "../header/NavItem";
 import NavCart from "../header/NavCart";
+import { Link } from "react-router-dom";
 
 function AppHeader() {
   return (
@@ -14,7 +15,9 @@ function AppHeader() {
       <div id={styles.navbar} role="navigation" aria-label="navigation">
         <div id={styles["nav-belt"]}>
           <div className={styles.navLeft}>
-            <img src={amzLogo} className={styles.logo} alt="Amazon logo" />
+            <Link to="/">
+              <img src={amzLogo} className={styles.logo} alt="Amazon logo" />
+            </Link>
             <DeliverTo />
           </div>
           <div className={styles.navFill}>
@@ -32,7 +35,9 @@ function AppHeader() {
               bottomLine="& Orders"
               showArrow={false}
             />
-            <NavCart />
+            <Link to="/cart">
+              <NavCart />
+            </Link>
           </div>
         </div>
       </div>

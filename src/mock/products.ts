@@ -126,7 +126,7 @@ export const homeProducts: IProductDB[] = [
   {
     asin: "B0CV6VTD71",
     category: Categories.HOME,
-    img: "https://www.amazon.com/dp/B0CV6VTD71/ref=cm_gf_ackf_d_p0_e0_qd0_UQoiDOH8KB4jPBLOlXkR?th=1",
+    img: "https://m.media-amazon.com/images/I/81n-W3nRtDL._AC_SL1500_.jpg",
     price: 35.77,
     title:
       "Laura Ashley - Twin Sheets, Cotton Percale Bedding Set, Lightweight & Breathable Home Decor (Heirloom Ditzy Blue, Twin)",

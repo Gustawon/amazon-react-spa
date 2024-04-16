@@ -8,20 +8,18 @@ import {
   getDocs,
 } from "../includes/firebase";
 import IProductDB from "../interfaces/IProductDB";
+import { Categories } from "../enums/Categories";
 
 function useProducts() {
-  // todo implement logic for loading data from BE
+  // TODO refactor logic for loading data from BE
   const [products, setProducts] = useState(Array<IProductDB>());
   const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
-    console.log("ProductsList... useEffect()");
     const initialize = async () => {
-      console.log("initialize()");
+      // TODO - change when finished with testing UI, no need to query backend for now..
       // if (!isInitialized) {
       if (isInitialized) {
-        // TODO - change when finished with testing UI, no need to query backend for now..
-        console.log("...quering..");
         const q = query(productsCollection, where("category", "==", "pcs"));
 
         const querySnapshot = await getDocs(q);
@@ -43,7 +41,18 @@ function useProducts() {
     initialize();
   }, [isInitialized]);
 
-  return { computerProducts, homeProducts, products };
+  function getProductsByCategoryID(categoryID: string) {
+    switch (categoryID) {
+      case Categories.COMPUTERS:
+        return computerProducts;
+      case Categories.HOME:
+        return homeProducts;
+      default:
+        return [];
+    }
+  }
+
+  return { products, getProductsByCategoryID };
 }
 
 export default useProducts;

@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
 import IHomeTiel from "../../interfaces/IHomeTiel";
 import styles from "./BasicTiel.module.css";
 
-function BasicTiel({ title, image, linkName }: IHomeTiel) {
+function BasicTiel({ title, image, linkName, link }: IHomeTiel) {
   return (
     <div className={styles.container}>
       <div className={styles.title}>{title}</div>
-      <div className={styles.imageContainer}>
+      <Link to={link} className={styles.imageContainer}>
         <img className={styles.image} src={image} alt="Product image" />
-      </div>
+      </Link>
       <div className={styles.link}>{linkName}</div>
     </div>
   );

@@ -12,11 +12,12 @@ function ProductsList() {
   const { categoryId } = useParams();
   const [products, setProducts] = useState(Array<IProductDB>());
 
-  const { computerProducts } = useProducts();
+  const { getProductsByCategoryID } = useProducts();
 
   useEffect(() => {
-    setProducts(computerProducts);
-  }, [computerProducts]);
+    const productsDB = getProductsByCategoryID(categoryId ? categoryId : "");
+    setProducts(productsDB);
+  }, [categoryId, getProductsByCategoryID]);
 
   return (
     <div className={styles.container}>

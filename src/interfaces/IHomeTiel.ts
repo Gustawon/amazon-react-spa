@@ -3,4 +3,5 @@ export default interface IHomeTiel {
   title: string;
   image: string;
   linkName: string;
+  link: string;
 }
