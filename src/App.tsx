@@ -4,6 +4,7 @@ import RootLayout from "./pages/RootLayout";
 import HomePage from "./pages/HomePage";
 import CartPage from "./pages/CartPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
+import ProductsList from "./components/products/ProductsList";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,19 @@ const router = createBrowserRouter([
       {
         path: "product",
         element: <ProductDetailPage />,
+      },
+      {
+        path: "products",
+        // element: <ProductsRootLayout />, // TODO - add when left navigation is ready
+        children: [
+          { index: true },
+          {
+            path: ":categoryId",
+            id: "products-category",
+            // loader: productsCategoryLoader,
+            element: <ProductsList />,
+          },
+        ],
       },
     ],
   },

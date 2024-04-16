@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+  gap: 20px;
+
+  height: 420px;
+  width: 100%;
+
+  padding: 20px 0 15px 0;
+  background-color: rgb(255, 255, 255);
+
+  border: solid 1px #d5dbdb;
+}
+
+.title {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  line-height: 1.25em;
+  min-height: 2.5em;
+  max-height: 2.5em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+
+  font-size: 19px;
+  text-align: left;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.price {
+  padding-left: 20px;
+  text-align: left;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.imageContainer {
+  display: flex;
+  flex-grow: 1;
+
+  overflow: hidden;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* TODO add when ProductDetailPage is ready */
+/* .imageContainer:hover {
+  cursor: pointer;
+} */
+
+.image {
+  width: 100%;
+  object-fit: scale-down;
+  object-position: 50% 50%;
+}
+
+.addToCartBtn {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  min-height: 22px;
+  width: fit-content;
+
+  background-color: #ffd814;
+  border: solid 1px #fcd200;
+
+  border-radius: 99px;
+
+  text-align: center;
+
+  font-size: 13px;
+
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+}
+
+.addToCartBtn:hover {
+  cursor: pointer;
+  background: #f7ca00;
+  border-color: #f2c200;
+}
