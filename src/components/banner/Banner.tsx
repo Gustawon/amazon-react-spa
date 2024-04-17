@@ -8,16 +8,19 @@ import background_3 from "../../assets/banner/essentials-for-gamers.jpg";
 import background_4 from "../../assets/banner/new-arrivals-in-toys.jpg";
 import background_5 from "../../assets/banner/shop-books.jpg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
+import { Categories } from "../../enums/Categories";
 
 function Banner() {
-  const backgrounds = [
-    background_1,
-    background_2,
-    background_3,
-    background_4,
-    background_5,
+  const backgrounds: { img: string; link: string }[] = [
+    { img: background_1, link: `/products/${Categories.KITCHEN}` },
+    { img: background_2, link: `/products/${Categories.BEAUTY}` },
+    { img: background_3, link: `/products/${Categories.GAMING}` },
+    { img: background_4, link: `/products/${Categories.TOYS}` },
+    { img: background_5, link: `/products/${Categories.BOOKS}` },
   ];
-  const [choice, setChoice] = useState(3);
+  const [choice, setChoice] = useState(4);
 
   function moveChoice(direction: string) {
     if (direction === "left") {
@@ -45,13 +48,15 @@ function Banner() {
       >
         <img src={arrowLeft} height={30} alt="Arrow left icon" />
       </div>
-      <div
-        id={styles["banner-background"]}
-        style={{
-          backgroundImage: `url(${backgrounds[choice]})`,
-          maskImage: `linear-gradient(to top, transparent 10%, black 45%)`,
-        }}
-      ></div>
+      <Link to={backgrounds[choice].link}>
+        <div
+          id={styles["banner-background"]}
+          style={{
+            backgroundImage: `url(${backgrounds[choice].img})`,
+            maskImage: `linear-gradient(to top, transparent 10%, black 45%)`,
+          }}
+        ></div>
+      </Link>
       <div
         role="button"
         className={`${styles.button} ${styles.rigth}`}

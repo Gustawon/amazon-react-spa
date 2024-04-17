@@ -3,7 +3,7 @@ import { Categories } from "../enums/Categories";
 
 // {
 //     asin: "",
-//     category: Categories.HOME,
+//     category: Categories.TOYS,
 //     img: "",
 //     price: 0,
 //     title: "",
@@ -198,5 +198,146 @@ export const homeProducts: IProductDB[] = [
     price: 59.99,
     title:
       "Laura Ashley - Full Sheets, Cotton Percale Bedding Set, Lightweight & Breathable Home Decor (Evie Pink, Full)",
+  },
+];
+
+export const booksProducts: IProductDB[] = [
+  {
+    asin: "1803234504",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/61NvGdjYjML._SY466_.jpg",
+    price: 32.06,
+    title:
+      "React Key Concepts: Consolidate your knowledge of React's core features",
+  },
+  {
+    asin: "1801070539",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/51xBuqXWZxL._SY466_.jpg",
+    price: 39.99,
+    title:
+      "React Application Architecture for Production: Learn best practices and expert tips to deliver enterprise-ready React web apps",
+  },
+  {
+    asin: "1803231343",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/61G5z+bVrML._SY466_.jpg",
+    price: 29.99,
+    title:
+      "State Management with React Query: Improve developer and user experience by mastering server state in React",
+  },
+  {
+    asin: "1491952024",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/91hUer84PpL._SY466_.jpg",
+    price: 41.99,
+    title:
+      "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language 7th Edition",
+  },
+  {
+    asin: "1800564732",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/71LSG+FfoAS._SY466_.jpg",
+    price: 54.99,
+    title:
+      "Mastering TypeScript - Fourth Edition: Build enterprise-ready, modular web applications using TypeScript 4 and modern frameworks 4th ed. Edition",
+  },
+  {
+    asin: "1800564457",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/61EUQRQxdhS._SY466_.jpg",
+    price: 38.99,
+    title:
+      "Simplify Testing with React Testing Library: Create maintainable tests using RTL that do not break with changes",
+  },
+  {
+    asin: "1804610968",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/51QZhgz4S9L._SY466_.jpg",
+    price: 36.99,
+    title:
+      "Building Micro Frontends with React 18: Develop and deploy scalable applications using micro frontend strategies",
+  },
+  {
+    asin: "1098117611",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/81KmwLA5PnL._SY466_.jpg",
+    price: 63.99,
+    title: "CSS: The Definitive Guide: Web Layout and Presentation 5th Edition",
+  },
+  {
+    asin: "1803247126",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/61Iua0a7dzL._SY466_.jpg",
+    price: 41.99,
+    title:
+      "Mastering React Test-Driven Development - Second Edition: Build simple and maintainable web apps with React, Redux, and GraphQL 2nd ed. Edition",
+  },
+  {
+    asin: "1803233109",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/614U3lgMUIL._SY466_.jpg",
+    price: 34.19,
+    title:
+      "React 18 Design Patterns and Best Practices - Fourth Edition: Design, build, and deploy production-ready web applications with React by leveraging industry-best practices",
+  },
+  {
+    asin: "1098138716",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/71LeIRBPrtL._SY466_.jpg",
+    price: 47.99,
+    title:
+      "Fluent React: Build Fast, Performant, and Intuitive Web Applications 1st Edition",
+  },
+  {
+    asin: "1805123971",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/51ws8Y46yJL._SY466_.jpg",
+    price: 33.24,
+    title:
+      "React Anti-Patterns: Build efficient and maintainable React applications with test-driven development and refactoring 1st Edition",
+  },
+  {
+    asin: "1804614203",
+    category: Categories.BOOKS,
+    img: "https://m.media-amazon.com/images/I/51+xOpy7QML._SY466_.jpg",
+    price: 33.0,
+    title:
+      "Learn React with TypeScript - Second Edition: A beginner's guide to reactive web development with React 18 and TypeScript 2nd ed. Edition",
+  },
+];
+
+export const toysProducts: IProductDB[] = [
+  {
+    asin: "B0BGLTYW59",
+    category: Categories.TOYS,
+    img: "https://m.media-amazon.com/images/I/813VONbqDPL._AC_SX522_.jpg",
+    price: 24.99,
+    title:
+      "Magnetic Tiles Kids Toys STEM Magnet Toys for Toddler Magnetic Blocks Building Toys Preschool Learning Sensory Montessori Toys for 3+ Year Old Boys and Girls, Safe Creativity Toddler Kids Toys",
+  },
+  {
+    asin: "B0B28W4HVF",
+    category: Categories.TOYS,
+    img: "https://m.media-amazon.com/images/I/71pXLNhqiSL._AC_SX522_.jpg",
+    price: 24.99,
+    title:
+      "Remote Control Excavator Toys for Boys - PREBOX Rc Excavators Metal Shovel for Kids Age 4-7 8 9 10 Year Old, Birthday Gifts Ideas, 1/18 Scale 2.4Ghz",
+  },
+  {
+    asin: "B0C6KRP4WC",
+    category: Categories.TOYS,
+    img: "https://m.media-amazon.com/images/I/61PM2bf3jNL._AC_SX522_.jpg",
+    price: 9.99,
+    title:
+      "Quick Push Pop Game It Fidget Toys Pro for Kids Adults, Handheld Puzzle Game Machine, Squeeze Poppet Sensory Fast Push Bubble Toy, Xmas Birthday Gifts for Boys Girls (Bear Green Light)",
+  },
+  {
+    asin: "B0BVMDG1GF",
+    category: Categories.TOYS,
+    img: "https://m.media-amazon.com/images/I/91ZNtjYVI4L._AC_SX569_.jpg",
+    price: 16.99,
+    title:
+      "Kids Construction Toys 253 PCS Race Tracks Toy for 3 4 5 6 7 8 Year Old Boys Girls, 5 PCS Truck Car and Flexible Track Play Set Create A Engineering Road Games Toddler Best Gift",
   },
 ];

@@ -1,4 +1,9 @@
-import { computerProducts, homeProducts } from "../mock/products";
+import {
+  computerProducts,
+  homeProducts,
+  booksProducts,
+  toysProducts,
+} from "../mock/products";
 
 import { useEffect, useState } from "react";
 import {
@@ -47,6 +52,10 @@ function useProducts() {
         return computerProducts;
       case Categories.HOME:
         return homeProducts;
+      case Categories.BOOKS:
+        return booksProducts;
+      case Categories.TOYS:
+        return toysProducts;
       default:
         return [];
     }

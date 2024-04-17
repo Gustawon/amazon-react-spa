@@ -9,4 +9,5 @@ export enum Categories {
   BEAUTY = "beauty",
   KITCHEN = "kitchen",
   CLOTHES = "clothes",
+  BOOKS = "books",
 }
