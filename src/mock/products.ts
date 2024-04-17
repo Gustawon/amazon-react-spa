@@ -341,3 +341,177 @@ export const toysProducts: IProductDB[] = [
       "Kids Construction Toys 253 PCS Race Tracks Toy for 3 4 5 6 7 8 Year Old Boys Girls, 5 PCS Truck Car and Flexible Track Play Set Create A Engineering Road Games Toddler Best Gift",
   },
 ];
+
+export const decorProducts: IProductDB[] = [
+  {
+    asin: "B075JHP7TK",
+    category: Categories.DECOR,
+    img: "https://m.media-amazon.com/images/I/813cmTEIkAL._AC_SX425_.jpg",
+    price: 28.99,
+    title:
+      "Mydethun 3D Moon Lamp with 5.9 Inch Wooden Base - Gifts for Women, LED Night Light, Mood Lighting with Touch Control Brightness for Home Décor, Bedroom, Kids Birthday Moon Light Gift - White & Yellow",
+  },
+  {
+    asin: "B09464Y4LD",
+    category: Categories.DECOR,
+    img: "https://m.media-amazon.com/images/I/61z7qaiPJ7L._AC_SX466_.jpg",
+    price: 21.99,
+    title:
+      "Doeean Home Wall Decor Letter Signs Acrylic Mirror Wall Stickers Wall Decorations for Living Room Bedroom Home Decor Wall Decals (Silver, 47.2 X 15.7)",
+  },
+];
+
+export const laptopsProducts: IProductDB[] = [
+  {
+    asin: "B0BS4BP8FB",
+    category: Categories.LAPTOPS,
+    img: "https://m.media-amazon.com/images/I/61gKkYQn6lL._AC_SX679_.jpg",
+    price: 299.99,
+    title: `Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode`,
+  },
+  {
+    asin: "B0C75ZRQLB",
+    category: Categories.LAPTOPS,
+    img: "https://m.media-amazon.com/images/I/71S4sIPFvBL._AC_SX466_.jpg",
+    price: 1134.0,
+    title:
+      "Apple 2023 MacBook Air Laptop with M2 chip: 15.3-inch Liquid Retina Display, 8GB Unified Memory, 256GB SSD Storage, 1080p FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Silver",
+  },
+];
+
+export const gamingProducts: IProductDB[] = [
+  {
+    asin: "B0C46CS37H",
+    category: Categories.GAMING,
+    img: "https://m.media-amazon.com/images/I/71AjtTj4LUL._AC_SX679_.jpg",
+    price: 48.99,
+    title:
+      "MAONO Gaming USB Microphone, Noise Cancellation Condenser mic with Mute, Gain, Monitoring, Boom Arm for Streaming, Podcast, Twitch, YouTube, Discord, PC, Computer, PS4, PS5, Mac, GamerWave DGM20S",
+  },
+  {
+    asin: "B0CKNN8J6B",
+    category: Categories.GAMING,
+    img: "https://m.media-amazon.com/images/I/61gUfO4tD7L._AC_SX679_.jpg",
+    price: 19.99,
+    title:
+      "Retro Game Console – Classic Mini Retro Game System Built-in 620 Games and 2 Controllers, Old-School Gaming System for Adults and Kids，8-Bit Video Game System with Classic Games",
+  },
+  {
+    asin: "B086PKMZ21",
+    category: Categories.GAMING,
+    img: "https://m.media-amazon.com/images/I/51FRJHB7XOL._AC_SY450_.jpg",
+    price: 40.99,
+    title:
+      "Razer BlackShark V2 X Gaming Headset: 7.1 Surround Sound - 50mm Drivers - Memory Foam Cushion - For PC, PS4, PS5, Switch - 3.5mm Audio Jack - Black",
+  },
+  {
+    asin: "B07RKYD5YH",
+    category: Categories.GAMING,
+    img: "https://m.media-amazon.com/images/I/71y3SwRJkQL._AC_SX679_.jpg",
+    price: 282.99,
+    title:
+      "RESPAWN 900 Gaming Recliner - Video Games Console Recliner Chair, Computer Recliner, Adjustable Leg Rest and Recline, Recliner with Cupholder, Reclining Gaming Chair with Footrest - Red",
+  },
+  {
+    asin: "B0C7HKS2RF",
+    category: Categories.GAMING,
+    img: "https://m.media-amazon.com/images/I/61hwaBMvOxL._SX466_.jpg",
+    price: 349.0,
+    title:
+      "Microsoft Xbox Series S 1TB SSD Console Carbon Black - Includes Xbox Wireless Controller - Up to 120 frames per second - 10GB RAM 1TB SSD - Experience high dynamic range - Xbox Velocity Architecture [video game] [video game] [video game]",
+  },
+];
+
+export const smartwatchesProducts: IProductDB[] = [
+  {
+    asin: "B0CPPDGGQT",
+    category: Categories.SMARTWATCHES,
+    img: "https://m.media-amazon.com/images/I/7106liULlNL._AC_SX522_.jpg",
+    price: 25.49,
+    title: `Smart Watch for Men/Women with Bluetooth Call and Message Reminder, 1.85" HD Touch Screen Fitness Watch, Heart Rate/Sleep/Blood Oxygen/Steps Monitor, 112+ Sport Mode, Activity Trackers for Android iOS`,
+  },
+  {
+    asin: "B0C89CK95W",
+    category: Categories.SMARTWATCHES,
+    img: "https://m.media-amazon.com/images/I/71qoQVetqhL._AC_SX522_.jpg",
+    price: 0,
+    title: `Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023`,
+  },
+  {
+    asin: "B0CDQBL66P",
+    category: Categories.SMARTWATCHES,
+    img: "https://m.media-amazon.com/images/I/71oM+R9n1kL._AC_SX522_.jpg",
+    price: 39.99,
+    title:
+      "Smart Watch for Men and Women - Alexa Built-in Smartwatch with Heart Rate, Sleep and Blood Oxygen Monitor,24/7 Heart Rate Auto Image Correction, Portable Smartwatch Dynaudio Speakers",
+  },
+];
+
+export const beautyProducts: IProductDB[] = [
+  {
+    asin: "B088W7L534",
+    category: Categories.BEAUTY,
+    img: "https://m.media-amazon.com/images/I/61KedtnoewL._SX425_.jpg",
+    price: 5.0,
+    title:
+      "e.l.f. Monochromatic Multi Stick, Luxuriously Creamy & Blendable Color, For Eyes, Lips & Cheeks, Dazzling Peony, 0.17 oz (5 g)",
+  },
+  {
+    asin: "B082YJF4ZY",
+    category: Categories.BEAUTY,
+    img: "https://m.media-amazon.com/images/I/61rcO8jeLjL._SX425_.jpg",
+    price: 14.79,
+    title:
+      "Bliss Bright Idea Vitamin C + Tri-Peptide Collagen Brightening Face Skincare Serum - Anti Aging, Reduces Dark Spots, Boosts Skin Elasticity - Clean - Vegan & Cruelty-Free - 1 Fl Oz",
+  },
+  {
+    asin: "B01JINOV5E",
+    category: Categories.BEAUTY,
+    img: "https://m.media-amazon.com/images/I/81XAS27-rdL._SY450_.jpg",
+    price: 12.88,
+    title:
+      "Real Techniques Miracle Complexion Sponge, Makeup Blender Sponge For Liquid & Cream Foundation, Light & Medium Coverage, Natural, Dewy Base Makeup, Mother’s Day Gift Set, Latex-Free Foam, 4 Count",
+  },
+  {
+    asin: "B0B45LL4DD",
+    category: Categories.BEAUTY,
+    img: "https://m.media-amazon.com/images/I/61li+q2pbqL._SX425_.jpg",
+    price: 16.43,
+    title:
+      "Beauty of Joseon Revive Eye Serum with Retinal Niacinamide Correction for Puffy Eye Bags Fine Lines Dark Circles Wrinkles, Korean Skin Care 30ml, 1 fl.oz",
+  },
+];
+
+export const kitchenProducts: IProductDB[] = [
+  {
+    asin: "B0CT3RN1K6",
+    category: Categories.KITCHEN,
+    img: "https://m.media-amazon.com/images/I/811U98T9UHL._AC_SX679_.jpg",
+    price: 29.98,
+    title: `Bellsal Large Premium Bamboo Silverware Organizer - Expandable Utensil Drawer Organizer - 17"x19.6" Utensil Holder and Cutlery Tray with Grooved for Kitchen Flatware and Utensils(7-9 Slot, Natural)`,
+  },
+  {
+    asin: "B0CVHDPH8X",
+    category: Categories.KITCHEN,
+    img: "https://m.media-amazon.com/images/I/91IamflkukL._AC_SX679_PIbundle-48,TopRight,0,0_SH20_.jpg",
+    price: 16.99,
+    title:
+      "48 Pack Plastic Deli Containers with Lids (16, 32 oz 24 Each) - Food Storage Containers with Lids - Clear Disposable Meal Prep Containers, BPA Free, Stackable, Leakproof, Microwave and Freezer Safe",
+  },
+  {
+    asin: "B0CTZGM597",
+    category: Categories.KITCHEN,
+    img: "https://m.media-amazon.com/images/I/41DFNOYayeL._AC_.jpg",
+    price: 59.99,
+    title:
+      "WHALL® Touch Screen Toaster 2 Slice, Stainless Steel Digital Timer Toaster, 6 Bread Types & 6 Shade Settings, Smart Extra Wide Slots Toaster With Bagel, Cancel, Defrost Functions",
+  },
+  {
+    asin: "B0CT87FKN2",
+    category: Categories.KITCHEN,
+    img: "https://m.media-amazon.com/images/I/81reeO7X0pL._AC_SX679_PIbundle-2,TopRight,0,0_SH20_.jpg",
+    price: 23.99,
+    title:
+      "Delamu Under Sink Organizers and Storage, 2 Pack Pull Out Kitchen Bathroom Cabinet Organizer, 2 Tier Black Under Sink Storage for Bathroom Kitchen, Under Counter Storage Organizer with 8 Hooks",
+  },
+];

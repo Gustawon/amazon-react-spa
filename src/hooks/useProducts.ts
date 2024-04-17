@@ -3,6 +3,12 @@ import {
   homeProducts,
   booksProducts,
   toysProducts,
+  decorProducts,
+  laptopsProducts,
+  gamingProducts,
+  smartwatchesProducts,
+  beautyProducts,
+  kitchenProducts,
 } from "../mock/products";
 
 import { useEffect, useState } from "react";
@@ -56,6 +62,18 @@ function useProducts() {
         return booksProducts;
       case Categories.TOYS:
         return toysProducts;
+      case Categories.DECOR:
+        return decorProducts;
+      case Categories.LAPTOPS:
+        return laptopsProducts;
+      case Categories.GAMING:
+        return gamingProducts;
+      case Categories.SMARTWATCHES:
+        return smartwatchesProducts;
+      case Categories.BEAUTY:
+        return beautyProducts;
+      case Categories.KITCHEN:
+        return kitchenProducts;
       default:
         return [];
     }
