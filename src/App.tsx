@@ -5,6 +5,10 @@ import HomePage from "./pages/HomePage";
 import CartPage from "./pages/CartPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import ProductsList from "./components/products/ProductsList";
+import LoginPage from "./pages/LoginPage";
+import AddressPage from "./pages/AddressPage";
+import LanguageSettingsPage from "./pages/LanguageSettingsPage";
+import OrdersHistoryPage from "./pages/OrdersHistoryPage";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +37,22 @@ const router = createBrowserRouter([
             element: <ProductsList />,
           },
         ],
+      },
+      {
+        path: "login",
+        element: <LoginPage />,
+      },
+      {
+        path: "address",
+        element: <AddressPage />,
+      },
+      {
+        path: "language",
+        element: <LanguageSettingsPage />,
+      },
+      {
+        path: "orders",
+        element: <OrdersHistoryPage />,
       },
     ],
   },

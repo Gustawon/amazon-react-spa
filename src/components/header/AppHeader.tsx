@@ -18,23 +18,31 @@ function AppHeader() {
             <Link to="/">
               <img src={amzLogo} className={styles.logo} alt="Amazon logo" />
             </Link>
-            <DeliverTo />
+            <Link to="/address">
+              <DeliverTo />
+            </Link>
           </div>
           <div className={styles.navFill}>
             <SearchBar />
           </div>
           <div className={styles.navRight}>
-            <LanguagePicker />
-            <NavItem
-              topLine="Hello, sign in"
-              bottomLine="Account & Lists"
-              showArrow
-            />
-            <NavItem
-              topLine="Returns"
-              bottomLine="& Orders"
-              showArrow={false}
-            />
+            <Link to="/language">
+              <LanguagePicker />
+            </Link>
+            <Link to="/login">
+              <NavItem
+                topLine="Hello, sign in"
+                bottomLine="Account & Lists"
+                showArrow
+              />
+            </Link>
+            <Link to="/orders">
+              <NavItem
+                topLine="Returns"
+                bottomLine="& Orders"
+                showArrow={false}
+              />
+            </Link>
             <Link to="/cart">
               <NavCart />
             </Link>
