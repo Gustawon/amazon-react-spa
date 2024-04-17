@@ -9,6 +9,7 @@ import LoginPage from "./pages/LoginPage";
 import AddressPage from "./pages/AddressPage";
 import LanguageSettingsPage from "./pages/LanguageSettingsPage";
 import OrdersHistoryPage from "./pages/OrdersHistoryPage";
+import ProductsRootLayout from "./pages/ProductsRootLayout";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
         path: "products",
-        // element: <ProductsRootLayout />, // TODO - add when left navigation is ready
+        element: <ProductsRootLayout />, // TODO - add left navigation, when it is ready
         children: [
           { index: true },
           {

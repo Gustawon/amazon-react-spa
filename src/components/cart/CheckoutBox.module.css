@@ -1,0 +1,38 @@
+.checkoutBox {
+  box-sizing: border-box;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 300px;
+  max-width: 300px;
+
+  max-height: 130px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: #fff;
+}
+
+.subtotal {
+  box-sizing: border-box;
+  width: 100%;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  padding-bottom: 20px;
+
+  font-size: 18px;
+  text-align: left;
+}
+
+.buttonContainer {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
