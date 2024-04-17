@@ -12,6 +12,9 @@
   width: 80px;
   height: 250px;
 
+  display: flex;
+  flex-direction: column;
+
   justify-content: center;
   align-content: center;
   border: solid 2px transparent;
